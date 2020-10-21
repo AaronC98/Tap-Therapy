@@ -1,4 +1,5 @@
 language: swift
+osx_image: xcode12.2
 xcode_project: TapTherapy.xcodeproj # path to your xcodeproj folder
 xcode_scheme: TapTherapy
-xcode_destination: platform=iOS Simulator,OS=10.1,name=iPad Pro (9.7-inch)
+script: xcodebuild clean build test -workspace TapTherapy.xcodeproj -scheme "TapTherapy" -sdk iphonesimulator -destination "platform=iOS Simulator, OS=14.1, name=iPad Pro (9.7-inch)" ONLY_ACTIVE_ARCH=NO CODE_SIGNINING_REQUIRED=NO
