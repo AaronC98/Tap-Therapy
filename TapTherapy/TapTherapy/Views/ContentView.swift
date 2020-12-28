@@ -9,11 +9,11 @@ import SwiftUI
 
 var cards:[onboardingCard] = [
     
-    onboardingCard(image: "IllustrationOne", title: "Create Groups", description: "You can create a group or multiple groups to store the shortcuts you create. Groups help keep your shortcuts organised."),
+    onboardingCard(image: "IllustrationOne", title: "Onboarding One", description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis et enim sit amet massa imperdiet suscipit eget id est. Aenean efficitur semper malesuada. Aenean sagittis porta ante a lobortis. "),
     
-    onboardingCard(image: "IllustrationTwo", title: "Create Shortcuts", description: "Asign a photo, link, document or even text snippet to a shortcut ou create. Access the shortcuts you create on the pasted keyboard at any time."),
+    onboardingCard(image: "IllustrationTwo", title: "Onboarding Two", description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis et enim sit amet massa imperdiet suscipit eget id est. Aenean efficitur semper malesuada. Aenean sagittis porta ante a lobortis. "),
     
-    onboardingCard(image: "IllustrationThree", title: "Access Anytime", description: "Paste your content in anytime, navigate to the shortcuts keyboard and tap a shortcut that you want to paste")
+    onboardingCard(image: "IllustrationThree", title: "Onboarding 3", description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis et enim sit amet massa imperdiet suscipit eget id est. Aenean efficitur semper malesuada. Aenean sagittis porta ante a lobortis. ")
                    
 ]
 

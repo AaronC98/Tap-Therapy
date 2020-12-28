@@ -15,6 +15,10 @@
 		933A58C42540B7BD0088FB2D /* Home.swift in Sources */ = {isa = PBXBuildFile; fileRef = 933A58C32540B7BD0088FB2D /* Home.swift */; };
 		933A58D72540CD000088FB2D /* FreePlay.swift in Sources */ = {isa = PBXBuildFile; fileRef = 933A58D62540CD000088FB2D /* FreePlay.swift */; };
 		933A58DF2540CF5A0088FB2D /* FastTap.swift in Sources */ = {isa = PBXBuildFile; fileRef = 933A58DE2540CF5A0088FB2D /* FastTap.swift */; };
+		93646409254A2BA700A9D22A /* FreePlayControl.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93646408254A2BA700A9D22A /* FreePlayControl.swift */; };
+		93646411254A2C1100A9D22A /* Carousel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93646410254A2C1100A9D22A /* Carousel.swift */; };
+		93646416254A2C5B00A9D22A /* FreePlayCardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93646415254A2C5B00A9D22A /* FreePlayCardView.swift */; };
+		9364641B254A2CE000A9D22A /* List.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9364641A254A2CE000A9D22A /* List.swift */; };
 		937378EA2538AA5A0066D552 /* TapTherapyApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 937378E92538AA5A0066D552 /* TapTherapyApp.swift */; };
 		937378EC2538AA5A0066D552 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 937378EB2538AA5A0066D552 /* ContentView.swift */; };
 		937378EE2538AA5B0066D552 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 937378ED2538AA5B0066D552 /* Assets.xcassets */; };
@@ -49,6 +53,10 @@
 		933A58C32540B7BD0088FB2D /* Home.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Home.swift; sourceTree = "<group>"; };
 		933A58D62540CD000088FB2D /* FreePlay.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FreePlay.swift; sourceTree = "<group>"; };
 		933A58DE2540CF5A0088FB2D /* FastTap.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FastTap.swift; sourceTree = "<group>"; };
+		93646408254A2BA700A9D22A /* FreePlayControl.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FreePlayControl.swift; sourceTree = "<group>"; };
+		93646410254A2C1100A9D22A /* Carousel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Carousel.swift; sourceTree = "<group>"; };
+		93646415254A2C5B00A9D22A /* FreePlayCardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FreePlayCardView.swift; sourceTree = "<group>"; };
+		9364641A254A2CE000A9D22A /* List.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = List.swift; sourceTree = "<group>"; };
 		937378E62538AA5A0066D552 /* TapTherapy.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TapTherapy.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		937378E92538AA5A0066D552 /* TapTherapyApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TapTherapyApp.swift; sourceTree = "<group>"; };
 		937378EB2538AA5A0066D552 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -97,6 +105,9 @@
 				933A58AF2540B7720088FB2D /* OnboardingCardView.swift */,
 				933A58D62540CD000088FB2D /* FreePlay.swift */,
 				933A58DE2540CF5A0088FB2D /* FastTap.swift */,
+				93646410254A2C1100A9D22A /* Carousel.swift */,
+				93646415254A2C5B00A9D22A /* FreePlayCardView.swift */,
+				9364641A254A2CE000A9D22A /* List.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -137,6 +148,7 @@
 				933A58CB2540CAD00088FB2D /* Views */,
 				933A58BE2540B7AF0088FB2D /* PageViewController.swift */,
 				933A58B92540B7980088FB2D /* PageControl.swift */,
+				93646408254A2BA700A9D22A /* FreePlayControl.swift */,
 				937378ED2538AA5B0066D552 /* Assets.xcassets */,
 				937378F22538AA5B0066D552 /* Info.plist */,
 				937378EF2538AA5B0066D552 /* Preview Content */,
@@ -302,13 +314,17 @@
 				937378EC2538AA5A0066D552 /* ContentView.swift in Sources */,
 				933A58BF2540B7AF0088FB2D /* PageViewController.swift in Sources */,
 				933A58D72540CD000088FB2D /* FreePlay.swift in Sources */,
+				93646411254A2C1100A9D22A /* Carousel.swift in Sources */,
 				933A58A82540B74F0088FB2D /* PageView.swift in Sources */,
 				933A58BA2540B7980088FB2D /* PageControl.swift in Sources */,
 				937378EA2538AA5A0066D552 /* TapTherapyApp.swift in Sources */,
 				933A58B52540B7840088FB2D /* onboardingCard.swift in Sources */,
 				933A58C42540B7BD0088FB2D /* Home.swift in Sources */,
+				9364641B254A2CE000A9D22A /* List.swift in Sources */,
 				933A58B02540B7720088FB2D /* OnboardingCardView.swift in Sources */,
 				933A58DF2540CF5A0088FB2D /* FastTap.swift in Sources */,
+				93646416254A2C5B00A9D22A /* FreePlayCardView.swift in Sources */,
+				93646409254A2BA700A9D22A /* FreePlayControl.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

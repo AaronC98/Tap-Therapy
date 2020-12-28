@@ -25,6 +25,9 @@ struct FastTap: View {
     let timer = Timer.publish(every: 1, on: .main, in: .common).autoconnect()
     
     var body: some View {
+        Color(#colorLiteral(red: 0.1019607857, green: 0.2784313858, blue: 0.400000006, alpha: 1))
+            .ignoresSafeArea() // Ignore just for the color
+            .overlay(
         VStack(spacing: 25) {
             ZStack {
                 Circle()
@@ -34,14 +37,18 @@ struct FastTap: View {
                     .stroke(timeRemaining > 6 ? Color.green : timeRemaining > 3 ? Color.yellow : Color.red, style: StrokeStyle(lineWidth: lineWith, lineCap: .round))
                     .rotationEffect(.degrees(-90))
                     .animation(.easeInOut)
-                Text("\(Int(timeRemaining))").font(.largeTitle)
+                Text("\(Int(timeRemaining))")
+                    .font(.system(size:60))
+                    .foregroundColor(.white)
             }.frame(width: radius * 2, height: radius * 2)
             
             //Pass tapCount as a state variable
             Text("Taps: \(tapCount)")
-                .font(.custom("Avenir", size: 40))
+                .font(.custom("Avenir", size: 80))
                 .padding(.top)
                 .padding(.bottom)
+                .foregroundColor(.white)
+            
 
             //iterate taps on button click
             Button(action: {
@@ -54,6 +61,7 @@ struct FastTap: View {
                     .padding(.horizontal, 90)
                     .background(Color.blue)
                     .cornerRadius(10)
+                    .font(.system(size: 60))
             })
             .padding(.vertical, 20)
             .padding(.horizontal, 50)
@@ -69,6 +77,7 @@ struct FastTap: View {
                 tapCount = 0
             }
         })
+        )
     }
 }
 
