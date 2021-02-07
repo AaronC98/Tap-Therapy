@@ -48,8 +48,6 @@ struct FastTap: View {
                 .padding(.top)
                 .padding(.bottom)
                 .foregroundColor(.white)
-            
-
             //iterate taps on button click
             Button(action: {
                 self.tapCount += 1
