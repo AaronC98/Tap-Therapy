@@ -3,30 +3,19 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
 		8AC01FDD34F2B968667D1BC4 /* Pods_TapTherapy.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1E54150A054BF32D99C3A5F8 /* Pods_TapTherapy.framework */; };
-		933A58A82540B74F0088FB2D /* PageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 933A58A72540B74F0088FB2D /* PageView.swift */; };
-		933A58B02540B7720088FB2D /* OnboardingCardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 933A58AF2540B7720088FB2D /* OnboardingCardView.swift */; };
-		933A58B52540B7840088FB2D /* onboardingCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 933A58B42540B7840088FB2D /* onboardingCard.swift */; };
-		933A58BA2540B7980088FB2D /* PageControl.swift in Sources */ = {isa = PBXBuildFile; fileRef = 933A58B92540B7980088FB2D /* PageControl.swift */; };
-		933A58BF2540B7AF0088FB2D /* PageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 933A58BE2540B7AF0088FB2D /* PageViewController.swift */; };
-		933A58C42540B7BD0088FB2D /* Home.swift in Sources */ = {isa = PBXBuildFile; fileRef = 933A58C32540B7BD0088FB2D /* Home.swift */; };
-		933A58D72540CD000088FB2D /* FreePlay.swift in Sources */ = {isa = PBXBuildFile; fileRef = 933A58D62540CD000088FB2D /* FreePlay.swift */; };
 		933A58DF2540CF5A0088FB2D /* FastTap.swift in Sources */ = {isa = PBXBuildFile; fileRef = 933A58DE2540CF5A0088FB2D /* FastTap.swift */; };
-		93646409254A2BA700A9D22A /* FreePlayControl.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93646408254A2BA700A9D22A /* FreePlayControl.swift */; };
-		93646411254A2C1100A9D22A /* Carousel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93646410254A2C1100A9D22A /* Carousel.swift */; };
 		93646416254A2C5B00A9D22A /* FreePlayCardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93646415254A2C5B00A9D22A /* FreePlayCardView.swift */; };
-		9364641B254A2CE000A9D22A /* List.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9364641A254A2CE000A9D22A /* List.swift */; };
 		937378EA2538AA5A0066D552 /* TapTherapyApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 937378E92538AA5A0066D552 /* TapTherapyApp.swift */; };
 		937378EC2538AA5A0066D552 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 937378EB2538AA5A0066D552 /* ContentView.swift */; };
 		937378EE2538AA5B0066D552 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 937378ED2538AA5B0066D552 /* Assets.xcassets */; };
 		937378F12538AA5B0066D552 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 937378F02538AA5B0066D552 /* Preview Assets.xcassets */; };
-		937378FC2538AA5B0066D552 /* TapTherapyTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 937378FB2538AA5B0066D552 /* TapTherapyTests.swift */; };
-		937379072538AA5B0066D552 /* TapTherapyUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 937379062538AA5B0066D552 /* TapTherapyUITests.swift */; };
-		93EBF65625D05E6C00F718C5 /* GoogleService-Info (1).plist in Resources */ = {isa = PBXBuildFile; fileRef = 93EBF65525D05E6C00F718C5 /* GoogleService-Info (1).plist */; };
+		93EBF65625D05E6C00F718C5 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 93EBF65525D05E6C00F718C5 /* GoogleService-Info.plist */; };
+		93F682EB25D84ECE00C7416B /* OnboardingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93F682EA25D84ECE00C7416B /* OnboardingView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,18 +38,8 @@
 /* Begin PBXFileReference section */
 		1E54150A054BF32D99C3A5F8 /* Pods_TapTherapy.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TapTherapy.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		7CFE08A4580A4847A117986F /* Pods-TapTherapy.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TapTherapy.release.xcconfig"; path = "Target Support Files/Pods-TapTherapy/Pods-TapTherapy.release.xcconfig"; sourceTree = "<group>"; };
-		933A58A72540B74F0088FB2D /* PageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PageView.swift; sourceTree = "<group>"; };
-		933A58AF2540B7720088FB2D /* OnboardingCardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnboardingCardView.swift; sourceTree = "<group>"; };
-		933A58B42540B7840088FB2D /* onboardingCard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = onboardingCard.swift; sourceTree = "<group>"; };
-		933A58B92540B7980088FB2D /* PageControl.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PageControl.swift; sourceTree = "<group>"; };
-		933A58BE2540B7AF0088FB2D /* PageViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PageViewController.swift; sourceTree = "<group>"; };
-		933A58C32540B7BD0088FB2D /* Home.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Home.swift; sourceTree = "<group>"; };
-		933A58D62540CD000088FB2D /* FreePlay.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FreePlay.swift; sourceTree = "<group>"; };
 		933A58DE2540CF5A0088FB2D /* FastTap.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FastTap.swift; sourceTree = "<group>"; };
-		93646408254A2BA700A9D22A /* FreePlayControl.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FreePlayControl.swift; sourceTree = "<group>"; };
-		93646410254A2C1100A9D22A /* Carousel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Carousel.swift; sourceTree = "<group>"; };
 		93646415254A2C5B00A9D22A /* FreePlayCardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FreePlayCardView.swift; sourceTree = "<group>"; };
-		9364641A254A2CE000A9D22A /* List.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = List.swift; sourceTree = "<group>"; };
 		937378E62538AA5A0066D552 /* TapTherapy.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TapTherapy.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		937378E92538AA5A0066D552 /* TapTherapyApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TapTherapyApp.swift; sourceTree = "<group>"; };
 		937378EB2538AA5A0066D552 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -68,12 +47,9 @@
 		937378F02538AA5B0066D552 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		937378F22538AA5B0066D552 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		937378F72538AA5B0066D552 /* TapTherapyTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TapTherapyTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		937378FB2538AA5B0066D552 /* TapTherapyTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TapTherapyTests.swift; sourceTree = "<group>"; };
-		937378FD2538AA5B0066D552 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		937379022538AA5B0066D552 /* TapTherapyUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TapTherapyUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		937379062538AA5B0066D552 /* TapTherapyUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TapTherapyUITests.swift; sourceTree = "<group>"; };
-		937379082538AA5B0066D552 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		93EBF65525D05E6C00F718C5 /* GoogleService-Info (1).plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info (1).plist"; sourceTree = "<group>"; };
+		93EBF65525D05E6C00F718C5 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		93F682EA25D84ECE00C7416B /* OnboardingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = OnboardingView.swift; path = ../../../../../../../../Documents/OnboardingView.swift; sourceTree = "<group>"; };
 		9A92F4BE69C161A6C3AB69AA /* Pods-TapTherapy.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TapTherapy.debug.xcconfig"; path = "Target Support Files/Pods-TapTherapy/Pods-TapTherapy.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -109,7 +85,6 @@
 				9A92F4BE69C161A6C3AB69AA /* Pods-TapTherapy.debug.xcconfig */,
 				7CFE08A4580A4847A117986F /* Pods-TapTherapy.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -125,32 +100,17 @@
 			isa = PBXGroup;
 			children = (
 				937378EB2538AA5A0066D552 /* ContentView.swift */,
-				933A58C32540B7BD0088FB2D /* Home.swift */,
-				933A58A72540B74F0088FB2D /* PageView.swift */,
-				933A58AF2540B7720088FB2D /* OnboardingCardView.swift */,
-				933A58D62540CD000088FB2D /* FreePlay.swift */,
 				933A58DE2540CF5A0088FB2D /* FastTap.swift */,
-				93646410254A2C1100A9D22A /* Carousel.swift */,
 				93646415254A2C5B00A9D22A /* FreePlayCardView.swift */,
-				9364641A254A2CE000A9D22A /* List.swift */,
+				93F682EA25D84ECE00C7416B /* OnboardingView.swift */,
 			);
 			path = Views;
-			sourceTree = "<group>";
-		};
-		933A58CF2540CAE30088FB2D /* Model */ = {
-			isa = PBXGroup;
-			children = (
-				933A58B42540B7840088FB2D /* onboardingCard.swift */,
-			);
-			path = Model;
 			sourceTree = "<group>";
 		};
 		937378DD2538AA5A0066D552 = {
 			isa = PBXGroup;
 			children = (
 				937378E82538AA5A0066D552 /* TapTherapy */,
-				937378FA2538AA5B0066D552 /* TapTherapyTests */,
-				937379052538AA5B0066D552 /* TapTherapyUITests */,
 				937378E72538AA5A0066D552 /* Products */,
 				2163838D40887AE1A33EB58B /* Pods */,
 				47BFA4B34BFB53E6ADD11CAC /* Frameworks */,
@@ -170,15 +130,11 @@
 		937378E82538AA5A0066D552 /* TapTherapy */ = {
 			isa = PBXGroup;
 			children = (
-				937378E92538AA5A0066D552 /* TapTherapyApp.swift */,
-				933A58CF2540CAE30088FB2D /* Model */,
 				933A58CB2540CAD00088FB2D /* Views */,
-				933A58BE2540B7AF0088FB2D /* PageViewController.swift */,
-				933A58B92540B7980088FB2D /* PageControl.swift */,
-				93646408254A2BA700A9D22A /* FreePlayControl.swift */,
 				937378ED2538AA5B0066D552 /* Assets.xcassets */,
 				937378F22538AA5B0066D552 /* Info.plist */,
-				93EBF65525D05E6C00F718C5 /* GoogleService-Info (1).plist */,
+				937378E92538AA5A0066D552 /* TapTherapyApp.swift */,
+				93EBF65525D05E6C00F718C5 /* GoogleService-Info.plist */,
 				937378EF2538AA5B0066D552 /* Preview Content */,
 			);
 			path = TapTherapy;
@@ -190,24 +146,6 @@
 				937378F02538AA5B0066D552 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
-			sourceTree = "<group>";
-		};
-		937378FA2538AA5B0066D552 /* TapTherapyTests */ = {
-			isa = PBXGroup;
-			children = (
-				937378FB2538AA5B0066D552 /* TapTherapyTests.swift */,
-				937378FD2538AA5B0066D552 /* Info.plist */,
-			);
-			path = TapTherapyTests;
-			sourceTree = "<group>";
-		};
-		937379052538AA5B0066D552 /* TapTherapyUITests */ = {
-			isa = PBXGroup;
-			children = (
-				937379062538AA5B0066D552 /* TapTherapyUITests.swift */,
-				937379082538AA5B0066D552 /* Info.plist */,
-			);
-			path = TapTherapyUITests;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -316,7 +254,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				937378F12538AA5B0066D552 /* Preview Assets.xcassets in Resources */,
-				93EBF65625D05E6C00F718C5 /* GoogleService-Info (1).plist in Resources */,
+				93EBF65625D05E6C00F718C5 /* GoogleService-Info.plist in Resources */,
 				937378EE2538AA5B0066D552 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -385,19 +323,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				937378EC2538AA5A0066D552 /* ContentView.swift in Sources */,
-				933A58BF2540B7AF0088FB2D /* PageViewController.swift in Sources */,
-				933A58D72540CD000088FB2D /* FreePlay.swift in Sources */,
-				93646411254A2C1100A9D22A /* Carousel.swift in Sources */,
-				933A58A82540B74F0088FB2D /* PageView.swift in Sources */,
-				933A58BA2540B7980088FB2D /* PageControl.swift in Sources */,
 				937378EA2538AA5A0066D552 /* TapTherapyApp.swift in Sources */,
-				933A58B52540B7840088FB2D /* onboardingCard.swift in Sources */,
-				933A58C42540B7BD0088FB2D /* Home.swift in Sources */,
-				9364641B254A2CE000A9D22A /* List.swift in Sources */,
-				933A58B02540B7720088FB2D /* OnboardingCardView.swift in Sources */,
 				933A58DF2540CF5A0088FB2D /* FastTap.swift in Sources */,
+				93F682EB25D84ECE00C7416B /* OnboardingView.swift in Sources */,
 				93646416254A2C5B00A9D22A /* FreePlayCardView.swift in Sources */,
-				93646409254A2BA700A9D22A /* FreePlayControl.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -405,7 +334,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				937378FC2538AA5B0066D552 /* TapTherapyTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -413,7 +341,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				937379072538AA5B0066D552 /* TapTherapyUITests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

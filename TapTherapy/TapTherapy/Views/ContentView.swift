@@ -7,33 +7,17 @@
 
 import SwiftUI
 
-var cards:[onboardingCard] = [
-    
-    onboardingCard(image: "IllustrationOne", title: "Onboarding One", description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis et enim sit amet massa imperdiet suscipit eget id est. Aenean efficitur semper malesuada. Aenean sagittis porta ante a lobortis. "),
-    
-    onboardingCard(image: "IllustrationTwo", title: "Onboarding Two", description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis et enim sit amet massa imperdiet suscipit eget id est. Aenean efficitur semper malesuada. Aenean sagittis porta ante a lobortis. "),
-    
-    onboardingCard(image: "IllustrationThree", title: "Onboarding 3", description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis et enim sit amet massa imperdiet suscipit eget id est. Aenean efficitur semper malesuada. Aenean sagittis porta ante a lobortis. ")
-                   
-]
-
-
 struct ContentView: View {
     
-    @State var isOnboardingFinished = false
+    @AppStorage("whatsNewView") var isWhatsNewShowing = true
     
     var body: some View {
+        Text("Hello, world!")
+            .sheet(isPresented: $isWhatsNewShowing, content: {
+                OnboardingView(isOnboardingShowing: $isWhatsNewShowing)
+            })
         
-        Group {
-            if isOnboardingFinished {
-                Home()
-                    .transition(AnyTransition.slide)
-                    .animation(Animation.easeInOut(duration: 1))
-            }
-            else {
-                PageView(cards.map { OnboardingCardView(card: $0) }, isOnboardingFinished: $isOnboardingFinished)
-            }
-        }
+        
         
     }
 }
